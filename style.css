@@ -1,0 +1,680 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+        
+ul,ol {
+    list-style: none;
+}
+@media screen and (min-width:768px) {
+    body {
+        background: url(img/back.png) 50% 60% #ddd no-repeat;
+    }
+    .banner {
+            height: 45px;
+            line-height: 45px;
+            color: white;
+            background: black;
+    }
+    .bannerChild {
+        float: right;
+        margin-right: 100px;
+    }
+    .navBtn {
+        display: none;
+    }
+    nav li {
+        margin-left:50px;
+        width: 90px;
+        text-align: center;
+    }
+    .navImg {
+        display: inline-block;
+        width: 250px;
+    }
+    header {
+        height: 450px;
+    }
+    header p:nth-child(1) {
+        font-size: 48px;
+        position: absolute;
+        top: 80px;
+        left: 180px;
+    }
+    header p:nth-child(2) {
+        display: none;
+    }
+    header p:nth-child(3) {
+        font-size: 20px;
+        border-top: rgba(250, 250, 250, 0.3) 1px solid;
+        position: absolute;
+        top: 170px;
+        left: 180px;
+    }
+    header p:nth-child(4) {
+        font-size: 20px;
+        border-bottom: rgba(250, 250, 250, 0.3) 1px solid;
+        position: absolute;
+        top: 210px;
+        left: 180px;
+    }
+    .headerSearch {
+        width: 590px;
+    }
+    .headerHiddenDiv {
+        height: 333px;
+    }
+    .content1 {
+        height: 365px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .content1 div {
+        padding: 0;
+    }
+    .content1 div:nth-child(1) {
+        height: 365px;
+        position: relative;
+    }
+    .content1 div:nth-child(1) div {
+        color: #eee;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background-color: transparent;
+    }
+    .content1 div:nth-child(1) div p:nth-child(1) {
+        font-size: 28px;
+        line-height: 50px;
+    }
+    .content1 div:nth-child(1) div p:nth-child(2),
+    .content1 div:nth-child(1) div p:nth-child(3) {
+        font-size: 17px;
+        line-height: 18px;
+    }
+    .content1 div:nth-child(1) img {
+        width: 100%;
+        height: 100%;
+    }
+    .content1 div:nth-child(2) {
+        height: 100%;
+        font-size: 18px;
+        font-weight: 300;
+        color: #eee;
+        background: #1a386e;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+        text-align: center;
+    }
+    .content1Btn {
+        width: 130px;
+        height: 35px;
+        line-height: 35px;
+        font-weight: 100;
+        border: #eee 1px solid;
+        margin: 0 auto;
+        border-radius: 8px;
+    }
+    .content1 div:nth-child(3),.content1 div:nth-child(4),.content1 div:nth-child(5) {
+                display: none;
+    }
+    .content2 p:nth-child(1) {
+        font-size: 36px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .content2 span {
+        display: none;
+    }
+    .content2 p:nth-child(2) {
+        font-size: 17px;
+        line-height: 17px;
+        text-align: center;
+    }
+    .content3 div {
+        padding: 0;
+    }
+    .content3 .viewpoint1 {
+        height: 490px;
+        margin-bottom: 3px;
+        margin-right: 2px;
+        position: relative;
+    }
+    .content3 .viewpoint2 {
+        height: 490px;
+        margin-right: 2px;
+        position: relative;
+    }
+    .content3 .blackMask {
+        height: 110px;
+        width: 100%;
+        background: black;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .content3 .blackMask p {
+        font-size: 20px;
+        line-height: 50px;
+        color: #eee;
+        margin-left: 40px;
+    }
+    .content3 .blackMask p:nth-child(2),.content3 .blackMask p:nth-child(3) {
+        margin-left: 0px;
+    }
+    .content3 .blackMask p:nth-child(1),.content3 .blackMask p:nth-child(2),.content3 .blackMask p:nth-child(3) {
+        display: inline;
+    }
+    .content3 .blackMask p span {
+        font-size: 30px;
+    }
+    .content33 .viewpoint3,.content33 .viewpoint4,.content33 .viewpoint5 {
+        height: 274px;
+        position: relative;
+    }
+    .content33 .viewpoint4 {
+        height: 350px;
+    }
+    .content33 .viewpoint5 {
+        height: 355px;
+    }
+    .content33 .blackMask {
+        width: 100%;
+        height: 90px;
+        background: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .content33 .viewpoint3 {
+        margin-bottom: 2px;
+        background: url(img/hot3.jpg);
+    }
+    .content33 .viewpoint4 {
+        margin-bottom: 2px;
+        background: url(img/hot4.jpg);
+    }
+    .content33 .viewpoint5 {
+        background: url(img/hot5.jpg);
+    }
+    .content3 .blackMask p {
+        line-height: 40px;
+    }
+    .btnMore {
+        display: none;
+    }
+
+    .content4 {
+        margin-top: 30px;
+    }
+    .content4 p:nth-child(1) {
+        font-size: 36px;
+        line-height: 55px;
+        text-align: center;
+    }
+    .content4 p:nth-child(2) {
+        font-size: 16px;
+        line-height: 17px;
+        text-align: center;
+    }
+    .content4 span {
+        display: none;
+    }
+
+    .content5 {
+        height: 350px;
+        color: #Eee;
+    }
+    .content5 div {
+        height: 350px;
+        padding: 0;
+    }
+    .content5 div:nth-child(1) img {
+        width: 100%;
+        height: 100%;
+    }
+    .content5 div:nth-child(2) {
+        background: rgba(6, 41, 106, 0.6);
+        height: 100%;
+    }
+    .content5 div:nth-child(2) h3 {
+        margin-top: 85px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .content5 div:nth-child(2) h2 {
+        display: none;
+    }
+    .content5 div:nth-child(2) p {
+        width: 520px;
+        font-size: 16px;
+        line-height: 40px;
+        margin: 0 auto;
+    }
+    .content5 div:nth-child(3) {
+        height: 475px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .content5 div:nth-child(3) img {
+        width: 100%;
+        height: 100%;
+    }
+    .content5 div:nth-child(4) {
+        display: none;
+    }
+    .content5 div:nth-child(5) img:nth-child(2),.content5 div:nth-child(6) img:nth-child(2),.content5 div:nth-child(7) img:nth-child(2) {
+        display: none;
+    }
+    .content5 div:nth-child(5),.content5 div:nth-child(6),.content5 div:nth-child(7) {
+        height: 400px;
+        text-align: center;
+        background: url(img/rorate.png) rgb(26, 56, 110) 50% 30% no-repeat;
+    }
+    .content5 div:nth-child(5) img:nth-child(1),.content5 div:nth-child(7) img:nth-child(1) {
+        margin-top: 110px;
+        margin-bottom: 20px;
+    }
+    .content5 div:nth-child(6) img:nth-child(1) {
+        margin-top: 110px;
+        margin-bottom: 10px;
+    }
+    .content5 div:nth-child(5) p:nth-last-child(4),.content5 div:nth-child(6) p:nth-last-child(3),.content5 div:nth-child(7) p:nth-last-child(3) {
+        font-size: 16px;
+        margin-bottom: 90px;
+    }
+    .content5 div:nth-child(5) div,.content5 div:nth-child(6) div,.content5 div:nth-child(7) div {
+        height: 200px;
+    }
+    .content5 div:nth-child(5) div p:nth-child(3) {
+        display: none;
+    }
+
+    .content6 {
+        color: #eee;
+    }
+    .content66 .otherApp {
+        height: 150px;
+        position: relative;
+    }
+    .content66 .otherApp div {
+        display: inline-block;
+        margin-left: 20px;
+        text-align: center;
+    }
+    .content66 .otherApp .friend {
+        font-size: 20px;
+        margin-left: 0;
+        position: absolute;
+        top: 50px;
+        left: 0;
+    }
+    .content66 .otherApp div p {
+        line-height: 40px;
+    }
+    .content66 .otherAppImg {
+        position: absolute;
+        top: 50px;
+        left: 60px;
+    }
+    .content66 .someLocate {
+        height: 70px;
+        padding: 0;
+        position: relative;
+    }
+    .content66 .someTheme {
+        height: 40px;
+        padding: 0;
+        position: relative;
+    }
+    .content66 .someLink {
+        height: 100px;
+        padding: 0;
+        position: relative;
+    }
+    .content66 .someLocate div:nth-child(1),
+    .content66 .someTheme div:nth-child(1),
+    .content66 .someLink div:nth-child(1) {
+        padding: 0;
+        font-size: 20px;
+    }
+    .content66 .someLocate div:nth-child(2),
+    .content66 .someTheme div:nth-child(2),
+    .content66 .someLink div:nth-child(2) {
+        line-height: 30px;
+        cursor: pointer;
+    }
+    .content6 .lastDiv {
+        height: 160px;
+        text-align: center;
+        border-top: #aaa 1px solid;
+    }
+    .content6 .lastDiv p {
+        font-size: 18px;
+        margin-top: 50px;
+    }
+    .lastDivPhone {
+        display: none;
+    }
+}
+        
+        
+@media screen and (max-width:767px) {
+    body {
+        background: #eee;
+    }
+    .banner {
+        display: none;
+    }
+    .navBtn {
+        margin-top: 8px;
+        margin-right: 30px;
+        color: #fff;
+        background: #e8420a;
+        float: right;
+        display: inline-block;
+    }
+    header {
+        height: 360px;
+    }
+    header p:nth-child(1) {
+        font-size: 37px;
+        position: absolute;
+        left: 40px;
+        top: 50px;
+    }
+    header p:nth-child(2) {
+        font-size: 25px;
+        position: absolute;
+        left: 40px;
+        top: 120px;
+    }
+    header p:nth-child(3),
+    header p:nth-child(4) {
+        display: none;
+    }
+    .headerSearch {
+        width: 450px;
+    }
+    .headerHiddenDiv {
+        height: 250px;
+    }
+    .content1 div:nth-child(1),
+    .content1 div:nth-child(2) {
+        display: none;
+    }
+    .content1 {
+        height: 200px;
+        background: white;
+        margin-top: 24px;
+    }
+    .content1 div:nth-child(3) {
+        margin-top: 50px;
+    }
+    .content1 div:nth-child(4) p:nth-child(1) {
+        font-size: 28px;
+        line-height: 110px;
+        color: #1c5080;
+        }
+        .content1 div:nth-child(4) p:nth-child(2),
+        .content1 div:nth-child(4) p:nth-child(3) {
+            font-size: 17x;
+            line-height: 18px;
+            color: #666;
+        }
+        .content1 div:nth-child(5) {
+            height: 100%;
+        }
+        .content1 div:nth-child(5) div {
+            width: 130px;
+            color: #666;
+            font-size: 21px;
+            text-align: center;
+            margin-top: 75px;
+            margin-right: 10px;
+            border: #aaa 1px solid;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .content2 {
+            margin-top: 20px;
+            padding-top: 40px;
+            background: white;
+            border-bottom: #eee 1px solid;
+        }
+        .content2 div p:nth-child(1) {
+            font-size: 30px;
+        }
+        .content2 div p:nth-child(1) span {
+            color: #e8420a;
+        }
+        .content2 div p:nth-child(2) {
+            display: none;
+        }
+
+        .content33 {
+            display: none;
+        }
+        .content3 {
+            text-align: center;
+            background-color: white;
+        }
+        .content3 .viewpoint1 {
+            height: 380px;
+            background: url(img/hot1.jpg);
+            margin-top: 20px;
+            position: relative;
+        }
+        .content3 .viewpoint2 {
+            height: 380px;
+            background: url(img/hot2.jpg);
+            margin-top: 20px;
+            position: relative;
+        }
+        .content3 .blackMask {
+            width: 100%;
+            height: 110px;
+            background: rgba(0, 0, 0, 0.8);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+        .content3 .blackMask p {
+            font-size: 24px;
+            font-weight: 300;
+            text-align: left;
+            margin-top: 15px;
+            margin-left: 10px;
+            color: #Eee;
+        }
+        .content3 .blackMask p:nth-child(2) {
+            display: none;
+        }
+        .content3 .blackMask p:nth-child(4) {
+            position: absolute;
+            right: 20px;
+            top: 25px;
+        }
+        .content3 .blackMask p span {
+            font-size: 32px;
+        }
+        .content3 .btnMore {
+            width: 180px;
+            color: #aaa;
+            font-size: 24px;
+            margin: 30px auto;
+            border: #aaa 1px solid;
+            border-radius: 10px;
+        }
+
+        .content4 {
+            margin-top: 20px;
+            padding-top: 30px;
+            background: #fff;
+            border-bottom: #Eee 1px solid;
+        }
+        .content4 p:nth-child(1) {
+            font-size: 30px;
+            line-height: 50px;
+            display: inline;
+        }
+        .content4 p:nth-child(1) span:nth-child(1) {
+            color: #e8420a;
+        }
+        .content4 p:nth-child(2) {
+            font-size: 20px;
+            display: inline;
+        }
+
+        .content5 {
+            background: url(img/back.png) 50% -12% #fff no-repeat;
+        }
+        .content5 div:nth-child(1) {
+            height: 328px;
+            padding-top: 30px;
+        }
+        .content5 div:nth-child(1) img {
+            width: 100%;
+            height: 100%;
+        }
+        .content5 div:nth-child(2) h3 {
+            display: none;
+        }
+        .content5 div:nth-child(2) h2 {
+            text-align: center;
+            line-height: 60px;
+        }
+        .content5 div:nth-child(2) p {
+            font-size: 20px;
+            line-height: 35px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+        }
+        .content5 div:nth-child(3) {
+            height: 330px;
+            margin-bottom: 60px;
+        }
+        .content5 div:nth-child(3) img {
+            width: 100%;
+            height: 100%;
+        }
+        .content5 div:nth-child(5) img:nth-child(1),
+        .content5 div:nth-child(6) img:nth-child(1),
+        .content5 div:nth-child(7) img:nth-child(1) {
+            display: none;
+        }
+        .content5 div:nth-child(4) h3 {
+            text-align: center;
+            margin: 0;
+        }
+        .content5 div:nth-child(5),
+        .content5 div:nth-child(6),
+        .content5 div:nth-child(7) {
+            height: 170px;
+            line-height: 190px;
+            border-bottom: #eee 1px solid;
+            position: relative;
+        }
+        .content5 div:nth-child(5) div,
+        .content5 div:nth-child(6) div,
+        .content5 div:nth-child(7) div {
+            height: 100px;
+            font-size: 17px;
+            line-height: 16px;
+            margin: 0;
+            position: absolute;
+            top: 70px;
+            left: 180px;
+        }
+        .content5 div:nth-child(5) div p:nth-child(1),
+        .content5 div:nth-child(6) div p:nth-child(1),
+        .content5 div:nth-child(7) div p:nth-child(1) {
+            display: none;
+        }
+        .content5 div:nth-child(5) img:nth-child(2),
+        .content5 div:nth-child(6) img:nth-child(2),
+        .content5 div:nth-child(7) img:nth-child(2) {
+            margin-left: 60px;
+        }
+        .content66,
+        .lastDiv {
+            display: none;
+        }
+        .lastDivPhone {
+            font-size: 17px;
+            margin: 70px;
+            color: #eee;
+            text-align: center;
+        }
+    }
+        
+        
+    .navImg {
+        margin-left: 50px;
+        display: inline-block;
+    }
+        
+    .navbar {
+        margin-bottom: 0;
+    }
+        
+    header {
+        color: #eee;
+        background: url(img/banner.jpg);
+        background-size: cover;
+        position: relative;
+    }
+        
+    header p {
+        font-weight: 100;
+    }
+        
+    .headerSearch {
+        border: black 3px solid;
+        height: 60px;
+        margin: 0 auto;
+        line-height: 55px;
+    }
+        
+    .headerSearch span {
+        text-align: center;
+        padding: 0;
+    }
+        
+    .headerSearch span:nth-child(1) {
+        background: #eee;
+    }
+        
+    .headerSearch span:nth-child(1) span {
+        font-size: 16px;
+        color: #444;
+        background: #eee;
+    }
+        
+    .headerSearch span:nth-child(2) {
+        color: #999;
+        background: #eee;
+    }
+        
+    .headerSearch span:nth-child(2) input {
+        outline: none;
+        width: 100%;
+        height: 55.2px;
+        border: none;
+    }
+        
+    .headerSearch span:nth-child(3) {
+        height: 55.2px;
+        background: #e8420a;
+    }
+        
+    .content3 .viewpoint1 {
+        background: url(img/hot1.jpg);
+    }
+        
+    .content3 .viewpoint2 {
+        background: url(img/hot2.jpg);
+    }
+    .content6 {
+        background: #343235;
+    }
